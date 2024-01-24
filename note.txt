@@ -1,0 +1,4 @@
+Header tags for title your page or difference section
+<br> is use to break line
+pre tag is use to break also line as you write in the text editor but it appear shifted( it is for preformated text)
+<hr> is used to divise or separate two section

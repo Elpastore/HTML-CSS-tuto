@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+</head>
+<body>
+    <!-- the abbr tag is used to create an abbreviation and it meaning if we pass the cursur on 
+    address tag is used to give information about address (like the adress information of someone or place etc.)
+    br and strong tags are used to get a bold style( Purpose is for making word importance)
+    -->
+    <h2> This is an <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr> tutorial</h2>
+    <div>
+        In this tutorial we will explore some tags. Don't pay  attention about the style because <strong>HTML is for structure our website</strong>. <br>
+        <blockquote cite="w3schools.com and chatGTP4">
+            The &lt;blockquote&gt; HTML tag is used to define a block of text that is a quotation from another source. <br>
+            The content inside the &lt;blockquote&gt; tag is typically indented and styled differently from the surrounding text to indicate that it is a quotation.
+        </blockquote>
+        <p>The adress tag is used to give  a certain kind of information about a person or a place. See the example above.
+        </p>    
+        <address>
+            Writen By <a href=www.linkedin.com/in/abdoulaye-sadio-4b951a225>ABDOULAYE SADIO</a><br>
+            Email-address: abdoulayesadio1997@gmail.com<br>
+            Adresse: Narry Tally 662 <br>
+            Phone number: 221 78 164 64 26
+        </address>
+        <p>The quotation mark (<q> </q>) is maked using the &lt;q&gt; tag</p>
+        <p>To put a code inside our text we can use the <strong>code tag</strong>
+            <code>
+                <pre>
+                    include &lt;stdio.h&gt;
+                        int main() 
+                        {
+                            printf("Hello World!");
+                            return 0;
+                        }
+                </pre>
+            </code>
+            This example is made using a combinaison of &lt;pre&gt; and &lt;code&gt; tag.
+        </p>
+    </div>
+    <p>ALX DOING <del>EASY</del> <strong><ins>HARD</strong></ins> THINGS!</p>
+    <p>
+        Generally if we want to display a word in italic, we can use &lt;em&gt; tag. <br>
+        example: <em> J'utilise l'italic ici pour affiché en italic une autre langue différente de l'anglais</em><br>
+        It is also possible to use &lt;i&gt tag <i>Comme affiché ici</i><br>
+        <strong>However italic tag is not used for style in <em>htlm</em> . We will see later how to handle it using <em>CSS</em></strong>
+    </p>
+    <p> <mark>I want to become a backend developper but i should know i little in front end!</mark></p>
+    <p> My progress on HTLM & CSS :
+        <progress value="25" max="100"></progress>
+    </p>
+    <p>
+        To be allow to have formular like a power or chemical formular we can use subcript tag and supercript tag. <br>
+        Ex: Water formular is HO<sub>2</sub> and 2 power of 5 is 2<sup>5</sup>
+        <pre>
+            Let's solve this equation
+            2x<sup>2</sup> + 3x -4 = 0
+            1. First let's compute delta:
+            delta = b<sup>2</sup> -ac
+            delta = 3<sup>2</sup> - 4(2 * (-4))
+            delta = 6 + 22
+            <strong>delta = 28</strong>
+            <mark>&radic;delta =2&radic;7</mark>
+            2. delta is positive so let's compute x<sub>1</sub> and x<sub>2</sub>
+            x<sub>1</sub>=(-b+&radic;delta)/2a
+            x<sub>2</sub>=(-b-&radic;delta)/2a
+
+        </pre>
+    </p>
+    <div>
+        <h3> Part 2: form and input</h2>
+            <p>This part is one of the most important on html. It allow user to enter data, retrieve data etc. <br>
+            The element form is used for: <strong><small> &lt;form&gt; and take more options(attributes)</small></strong><br>
+            <a href="https://htmldog.com/guides/html/beginner/forms/"> Clic here go get more information about it visit</a>
+            </p>
+            <form action="">
+                <p>
+                <input type="text">
+                </p>
+                <p><input type="submit" value="Submit your data"></p>
+                <p>Enter your email <input type="email"></p>
+                <p>Enter your password <input type="password"></p>
+                <p><input type="submit" value="Sign up"></p>
+                <p>This example above is used to enter text, or may be used to search something/data <br>
+                    <strong>Important:</strong> <br>
+                    When you click "Submit your data", the page will refresh and all entered information will disappear. <br>
+                    <i>Generally form is combine with a script!</i> <br>
+                    <input type="submit" value="Ooo. Look. Text on a button. Wow"><br>
+                </p>
+                <p>
+                    As you see form can be combine with input. <br>
+                    Between these options choose the best one <br>
+                    <br>
+                    Which of this DNA extraction is pure: <br>
+                    <br>
+                    A. A<sub>260</sub>/A<sub>280</sub> = 1.4<input type="checkbox"> <br>
+                    <br>
+                    B. A<sub>260</sub>/A<sub>280</sub> = 1.6<input type="checkbox"> <br>
+                    <br>
+                    C. A<sub>260</sub>/A<sub>280</sub> = 1.8<input type="checkbox"> <br>
+                    <br>
+                    D. A<sub>260</sub>/A<sub>280</sub> = 2.4<input type="checkbox"> <br>
+
+                </p>
+            </form>
+
+    </div>
+
+</body>
+</html>

@@ -70,17 +70,35 @@
         </pre>
     </p>
     <div>
-        <h3> Part 2: form and input</h2>
+        <h3> Part 2: form and input</h3>
             <p>This part is one of the most important on html. It allow user to enter data, retrieve data etc. <br>
             The element form is used for: <strong><small> &lt;form&gt; and take more options(attributes)</small></strong><br>
-            <a href="https://htmldog.com/guides/html/beginner/forms/"> Clic here go get more information about it visit</a>
+            <a href="https://htmldog.com/guides/html/beginner/forms/"> Clic here go get more information about it visit</a> <br>
+            The format attribute take two parameter, the "action" and "method" parameter.
+            <ul>
+                <li><strong>Action</strong>: is used to specify where the data/information should be send</li>
+                <li><strong>Method</strong>: is used to specify how data will be submit</li>
+                    <ul>
+                        <li>get: data will be send in public way</li>
+                        <li>post: data will be send in private way</li>
+                    </ul>
+                <li><strong>enctype</strong>: when data to be sended is in file,image etc. format</li>
+                <li><strong>autocomplete</strong>: take two option</li>
+                    <ul>
+                        <li>the on option: will give you suggestion</li>
+                        <li>the off option: won't give you any sugession</li>
+                    </ul>
+            The autocomplete method i generally combine with &lt;input&gt; using the type email 
+            <li><strong>target</strong>: specify how to data should be display</li>
+            </ul>
+            Here <a href="https://htmldog.com/references/html/tags/form/" target="_blank"> you will learn more about form's attributes</a>
             </p>
-            <form action="">
+            <form autocomplete="off" action="/index.html" target="_blank" >
                 <p>
                 <input type="text">
                 </p>
                 <p><input type="submit" value="Submit your data"></p>
-                <p>Enter your email <input type="email"></p>
+                <p>Enter your email <input type="email" name="email"></p>
                 <p>Enter your password <input type="password"></p>
                 <p><input type="submit" value="Sign up"></p>
                 <p>This example above is used to enter text, or may be used to search something/data <br>

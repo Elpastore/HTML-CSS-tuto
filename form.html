@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tutorial</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h2>This part is dedicate for form in htm</h2>
+            <form>
+                <p>Choose one of these programming language</p>                
+                <input type="radio" name="programming_language" value="php" id="php">
+                <label for="php">PHP</label><br>
+                
+                <input type="radio" name="programming_language" value="c++" id="cpp">
+                <label for="cpp">C++</label><br>
+                
+                <input type="radio" name="programming_language" value="python" id="python">
+                <label for="python">Python</label><br>
+                <p> Please indicate your local time</p>
+                <input type="datetime-local" name="" id=""> <br>
+                <p>Enter your birthday information</p>
+                <input type="date" name="" id=""> <br>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div>
+            <p>After talking about input type:
+                <ul>
+                    <li>checkbox</li>
+                    <li>text</li>
+                    <li>submit</li>
+                    <li>password (this field will not show the text)</li>
+                    <li>email</li>
+                    <li>radio</li>
+                    <li>date</li>
+                    <li>reset</li>
+                </ul>
+                It it possible to combine them for a specific propose.
+            </p>
+            <p>Now let's see two new type  of elements, the textarea and select tag.</p>
+            <p>The textarea is used when you want to allow the user to write a large amount of text like an article or a review. The height attribute specifies the visible height of the text. <br>
+            This is a text area where you can write anything that you want. The number of row and columns is defined by the rows and cols attributes. This is used to make a post for example. It is maintly use for taping text. <br>
+            By specifies the option resize to none, it  is possible to disable resizing with mouse or touch events(style=" resize: none"). <br>
+            <textarea ols="60" rows="5" style="resize: none;"></textarea> <br>
+            <p>The select tag us used to select an element between a list of element or list of element grouped
+                by category. The attribute "name" is required for this kind of element.
+            </p>
+            <p> Selection which type of car you want</p>
+            <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select> <br>
+            <br>
+            <p>select between  these multiple options</p>
+            <select>
+                <optgroup label="Sofware engineer">
+                    <option value="Backend">Backend</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="DevOps">DevOps</option>
+                </optgroup>
+                <optgroup label="Sicentist">
+                    <option value="Microbiologist">Microbiologist</option>
+                    <option value="Geneticien">Geneticien</option>
+                    <option value="Bioinformaticien">Bioinformaticien</option>
+                </optgroup>
+        </div>
+    </section>
+</body>
+</html>
